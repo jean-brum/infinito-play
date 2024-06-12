@@ -82,7 +82,7 @@ footer {
     }
 }
 
-@media (max-width:432px) {
+@media (max-width:480px) {
     .iframe-live {
         width: 350px;
     }
