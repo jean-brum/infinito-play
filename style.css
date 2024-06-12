@@ -82,6 +82,12 @@ footer {
     }
 }
 
+@media (max-width:432px) {
+    .iframe-live {
+        width: 350px;
+    }
+}
+
 @media (max-height:734px) {
     .container-section p {
        display: none;
