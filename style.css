@@ -31,7 +31,12 @@ header p{
     flex-direction: column;
 }
 
-.container-section p{
+.iframe-live {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container-section p {
     width: 852px;
     font-size: 60px;
     color: red;
@@ -64,4 +69,27 @@ footer {
     text-align: center;
     width: 450px;
  }
+}
+
+@media (max-width:529px) {
+    header p {
+       display: none;
+    }
+   
+    .container-section p{
+       text-align: center;
+       width: 450px;
+    }
+}
+
+@media (max-height:734px) {
+    .container-section p {
+       display: none;
+    }
+}
+
+@media (max-height:563px) {
+    header p {
+       display: none;
+    }
 }
